@@ -1,0 +1,72 @@
+.grid-container-portfolio {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns:1fr 1fr 1fr ; */
+    grid-template-columns: 24% 24% 24%;
+    gap: 20px 15px;
+    padding: 10px;
+    margin-left: 80px;
+    justify-content: center;
+}
+
+.grid-container-portfolio>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0.5px solid white;
+    text-align: center;
+    height: 320px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+.portfolio .image1,
+.portfolio .image2,
+.portfolio .image3,
+.portfolio .image4,
+.portfolio .image5,
+.portfolio .image6,
+.portfolio .image7,
+ .portfolio  .image8,
+ .portfolio .image9,
+  .portfolio .image10,
+.portfolio  .image11
+ {
+    width: 100%;
+}
+.menufolio ul{
+    display: flex;
+    justify-content: center;
+}
+.menufolio ul li a{
+     margin-right: 20px; 
+
+}
+.portfolio li{
+    list-style: none;
+}
+.portfolio.active{
+    color: red;
+}
+.portfolio a{
+    text-decoration: none;
+    color: black;   
+   
+}
+.portfolio a:hover{
+    
+    background-color: burlywood; 
+
+}
+.portfolio .textfolio{
+    text-align: center;
+}
+#traithr{
+    width: 4%;
+    height: 5px;
+    background-color: green;
+
+}
+.portfolio #loremtext{
+    text-align: center;
+    padding-bottom: 10px;
+}
+

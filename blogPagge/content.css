@@ -1,0 +1,70 @@
+.mon-grid {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns:1fr 1fr 1fr ; */
+    grid-template-columns: 24% 24% 24%;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.mon-grid>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0.5px solid white;
+    text-align: center;
+    /* font-size: large; */
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6 {
+    width: 100%;
+}
+
+/* .icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5,
+.icon6 {
+    width: 15%;
+
+} */
+
+.mon-titre {
+    font-size: 20px;
+    margin-right: 180px;
+    margin-left: -42px;
+}
+#titr{
+    margin-left: 40px;
+}
+
+.snd-desc{
+    margin-left: -45px;
+}
+
+.snd-desc1{
+    margin-left: 10px;
+}
+.infoprofil{
+    display: flex;
+}
+/* /*  */
+.textprofil2 ,.textprofil3,.textprofil4{
+    margin-top: 30px;
+
+}
+.textprofil5,.textprofil6 {
+    margin-top: 30px;
+
+}
+
+/* .grid1{
+            height: 400px;
+        } */

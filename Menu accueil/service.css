@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.service{
+/*    justify-content: center;*/
+    margin-left: 70px;
+}
+
+.service .pere1{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 18px;
+    margin-left: 220px;
+    margin-top: 25px;
+}
+
+.service .enfant1{
+    background-color: #eeeeee;
+    height: 280px
+    padding-left: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /* padding-top: 20px; */
+    
+}
+.service .enfant2{
+    background-color: #eeeeee;
+    height: 280px
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding-left: 15px;
+    
+}
+.service .enfant3{
+    background-color: #eeeeee;
+    height: 280px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding-left: 15px;
+    
+}
+.service .pere2{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 18px;
+    margin-left: 220px;
+    margin-top: 25px;
+}
+
+.service .enfant4{
+    background-color: #eeeeee;
+    height: 280px;
+    padding-left: 15px;
+    
+}
+.service .enfant5{
+    background-color: #eeeeee;
+    height: 280px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding-left: 15px;
+    
+}
+.service .enfant6{
+    background-color: #eeeeee;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: 280px;
+    padding-left: 15px;
+    
+}
+
+.sercive span i{
+    font-size: 35px;
+    margin-top: 28px;
+    background-color: rgb(205, 205, 205);
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.service span i:hover{
+    background-color: #f85a58;
+}
+
+.service a{
+    text-decoration: none;
+    color: #41d0f1;
+}
+
+.service a:hover{
+    color: #f85a58;
+}
+
+.service h3{
+    border-bottom: 4px solid rgb(158, 158, 158);
+    padding-bottom: 5px;
+    width: 118px;
+}
+.service .bi-ease{
+    color: #f85a58;
+}

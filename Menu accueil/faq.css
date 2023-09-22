@@ -1,0 +1,49 @@
+ .faq1{
+    font-size: large;
+
+ }
+ details>summary {
+     padding: 4px;
+     width: 600px;
+     background-color: rgba(255, 255, 255, 0.8);
+     border: none;
+     box-shadow: 1px 1px 2px #bbbbbb;
+     cursor: pointer;
+     padding: 23px;
+ }
+
+ .faq1 details>p {
+     background-color: rgba(255, 255, 255, 0.8);
+     padding: 4px;
+     width: 640px;
+     margin: 0;
+     box-shadow: 1px 1px 2px #f9f7f7;
+ }
+
+ .faq {
+     display: flex;
+     margin-left: 150px;
+ }
+
+ .soumari {
+     margin-top: 20px;
+     margin-left: 70px;
+ }
+
+ .question {
+     width: 20%;
+     margin-top: 30px;
+ }
+
+ summary {
+     margin-top: 30px;
+ }
+
+ summary:hover {
+     color: green;
+
+ }
+
+ .faq1 span {
+     color: green;
+ }

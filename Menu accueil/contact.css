@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+body .contenue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color: #09042f;
+}
+.mere{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1.3fr 2fr;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center */
+    padding:15px;
+}
+input::placeholder{
+   padding: 10px;
+   color: black;
+}
+textarea::placeholder{
+    padding: 10px;
+    color: black;
+ }
+.brief{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color:#eeeeee;
+    gap: 20px;
+    height: 100%;
+    padding:15px;
+    border-radius: 5px 0 0 5px;
+}
+.contact{
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding-top: 25px;
+}
+hr{
+    width: 3%;
+    border: 0.1em solid #d5d5d5;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.info-boite div.mini-contenu{
+    border: 2px solid #d6d6d6;
+    border-radius: 5px ;
+    /* background-color: #eeeeee; */
+    
+}
+body section#mere{
+    justify-content: center;
+    align-items: center;
+    margin: 3% 8%;
+    box-shadow: 3px 3px 10px 0px #585858 ;
+
+}
+.form{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 6%;
+}
+.input-hot{
+    grid-column: auto;
+}
+.input-hot input{
+   width: 345px;
+   height: 35px;
+   box-sizing: border-box;
+   border: 1px solid rgb(218, 212, 212);
+
+}
+.subject input{
+    width: 700px;
+    height: 35px;
+    box-sizing: border-box;
+    margin: 2% 0%;
+    border: 1px solid rgb(218, 212, 212);
+
+}
+textarea{
+    width: 700px;
+   border: 1px solid rgb(218, 212, 212);
+
+}
+.little-container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 15px;
+    background-color: #fff;
+}
+
+section .little-container  div i {
+    font-size: x-large;
+    margin-left: 15px;
+    
+}
+button{ 
+    border-radius: 20px;
+    height: 35px;
+    width: 20%;
+    color: white;
+    background-color: #f85a50;
+    margin: 1% 45%;
+    border: none;
+}
+
+button:hover{
+    background-color: #7d7d7d;
+    color: #fff;
+}
+
+:txt{
+    color: #09042f;
+}
+i{
+    color: #f85a50;
+}
+
