@@ -18,7 +18,7 @@ body{
 
 .service .enfant1{
     background-color: #eeeeee;
-    height: 280px
+    height: 280px;
     padding-left: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     /* padding-top: 20px; */
@@ -26,7 +26,7 @@ body{
 }
 .service .enfant2{
     background-color: #eeeeee;
-    height: 280px
+    height: 280px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     padding-left: 15px;
     
@@ -67,7 +67,7 @@ body{
     
 }
 
-.sercive span i{
+.service span i{
     font-size: 35px;
     margin-top: 28px;
     background-color: rgb(205, 205, 205);
@@ -96,3 +96,5 @@ body{
 .service .bi-ease{
     color: #f85a58;
 }
+/* responsive */
+

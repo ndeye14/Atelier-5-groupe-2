@@ -9,10 +9,10 @@ body .contenue{
     align-items: center;
     text-align: center;
 }
-h1{
+.contactC h1{
     color: #09042f;
 }
-.mere{
+.contactC .mere{
     display: grid;
     width: 80%;
     grid-template-columns: 1.3fr 2fr;
@@ -44,12 +44,22 @@ textarea::placeholder{
     text-align: center; 
     padding-top: 25px;
 }
+#traithr {
+    width: 4%;
+    height: 5px;
+    background-color: green;
+
+}
 hr{
     width: 3%;
     border: 0.1em solid #d5d5d5;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
+    height: 3%;
+     /* padding: 10px;  
+    background-color: green;
+
 }
 
 .info-boite div.mini-contenu{
@@ -108,7 +118,7 @@ section .little-container  div i {
     margin-left: 15px;
     
 }
-button{ 
+.contactC button{ 
     border-radius: 20px;
     height: 35px;
     width: 20%;

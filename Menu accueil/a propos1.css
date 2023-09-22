@@ -1,0 +1,33 @@
+.containerpropos{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.imges{
+    width: 350px;
+    height: 250Px;
+    border-radius: 5PX;
+}
+p{
+    color: grey;
+}
+
+.cotédroite{
+    padding-left: 50px;
+}
+.textpropos{
+    text-align: center;
+}
+#loremtextpropos{
+    margin-left: 195px;
+}
+/* responsive */
+@media screen and (max-width: 768px){
+    .containerpropos {
+            display: block;
+            margin-top: 40px;
+            margin-left: 200px;
+        }
+
+    
+}

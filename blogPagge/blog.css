@@ -4,14 +4,17 @@ body{
     background-color: #eeeeee;
 
 }
+
+
 .entete{
-    background-color: #eeeeee;
+    /* background-color: #eeeeee; */
+    background-color: rgba(165, 189, 196);
     width: 100%;
     height: 30px;
 }
 .IconDroite{
     display: flex;
-    margin-left: 1310px;
+    margin-left: 1130px;
     margin-top: -11px; 
     margin-top: -15px;
 }
@@ -35,7 +38,7 @@ body{
 }
 ul{
     list-style: none;
-  60
+
 }
 a{
     padding: 0 10px;
@@ -59,6 +62,7 @@ a{
 
 .menu{
     background-color: #060133;
+   
 }
 
 h1{
@@ -69,16 +73,22 @@ h1{
 
 .blog{
     text-align: center;
-    margin-top: 70px;
-    background-color: rgb(248, 248, 248);
-    width: 50%;
-    margin-left: 340px;
+    margin-top: 90px;
+    background-color: rgba(165, 189, 196);
+    box-shadow: 15px 15px 15px rgb(173, 170, 170);
+    border-radius: 15px;
+    height: 200px;
+    width: 70%;
+    margin-left: 175px;
 }
 
 .mon-desc{
-    margin-top: -30px;
+    margin-top: -10px;
 }
 
-grid1{
+/* grid1{
     color: #060133;
+} */
+#train{
+    margin-left: 10px;
 }

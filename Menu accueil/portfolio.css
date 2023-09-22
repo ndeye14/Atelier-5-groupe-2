@@ -69,4 +69,31 @@
     text-align: center;
     padding-bottom: 10px;
 }
+/* responsive */
+@media screen and (max-width:510px){
+
+    .grid-container-portfolio {
+            display: grid;
+            grid-template-columns: 24% 24% ;
+            gap: 20px 15px;
+            padding: 10px;
+            margin-left: 80px;
+            justify-content: center;
+        }
+
+    
+}
+@media screen and (max-width:460px) {
+
+    .grid-container-portfolio {
+        display: grid;
+        grid-template-columns: 24% ;
+        gap: 20px 15px;
+        padding: 10px;
+        margin-left: 80px;
+        justify-content: center;
+    }
+
+
+}
 
